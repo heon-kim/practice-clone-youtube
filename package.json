@@ -1,0 +1,22 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "YouTube clone built using NodeJS, Express, Mongo and ES6",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heon-kim/practice-clone-youtube.git"
+  },
+  "scripts": {
+    "win": "node index.js"
+  },
+  "author": "HEON",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heon-kim/practice-clone-youtube/issues"
+  },
+  "homepage": "https://github.com/heon-kim/practice-clone-youtube#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
