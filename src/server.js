@@ -1,7 +1,8 @@
 import express from "express";
 
+const PORT = 4000;
 const app = express();
 
-const handleListening = () => console.log("server listening on port 4000 👍");
-
-app.listen(4000, handleListening);
+app.listen(PORT, () =>
+  console.log(`✅ server listening on port http://localhost:${PORT} 👍`)
+);
