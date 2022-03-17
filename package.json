@@ -8,7 +8,7 @@
     "url": "git+https://github.com/heon-kim/practice-clone-youtube.git"
   },
   "scripts": {
-    "win": "node index.js"
+    "dev": "nodemon --exec babel-node index.js"
   },
   "author": "HEON",
   "license": "ISC",
@@ -18,5 +18,11 @@
   "homepage": "https://github.com/heon-kim/practice-clone-youtube#readme",
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
   }
 }
