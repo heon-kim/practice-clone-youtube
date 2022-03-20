@@ -1,4 +1,9 @@
-extends base.pug
+extends base
+include mixin/video
 
 block content 
-    h1 Home 🏠
+    h2 Trending Videos
+    each videoInfo in videos 
+        +video(videoInfo)
+    else 
+        li unFounded
